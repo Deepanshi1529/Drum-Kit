@@ -13,5 +13,5 @@ When we play the drums, we use the sticks and our hand movements so, why not bui
 + Both have a CallBack function ---> makeSound and this function contains all the sounds data which will be produced based on the data it receive.
 + for clicks, makeSound has input <code>this.innerHTML</code> ---> whatever button i'm clicking on and will produce a sound linked to that presses button
 + for keydown, makeSound has input <code>event.key</code> ----> represents the key value of key, it returns the string.
-+ the switch statements are being defined inside the CallBack function where each case is associated with the characterand it's corresponding output --> playing a sound.
++ the switch statements are being defined inside the CallBack function where each case is associated with the character and it's corresponding output --> playing a sound.
 + to play a sound, audio.play() function is used.
